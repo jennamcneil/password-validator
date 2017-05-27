@@ -20,9 +20,6 @@ public class ExampleUnitTest extends passwordValidator{
         validate1("Hello");
         validate1("greetHin435");
     }
-    public void validateCorrect2() throws Exception {
-        //validate2("Hello");
-      //  validate2("greetHin435");
-    }
+
 
 }
