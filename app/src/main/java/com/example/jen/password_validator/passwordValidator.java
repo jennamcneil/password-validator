@@ -18,6 +18,24 @@ public class passwordValidator {
 
         return error;
     }
+    public int validate2(String word){
+        int error =0;
+        //Word contains number
+        if(word.matches(".*\\d.*")){
+        }
+        else {
+            error++;
+        }
+        //Check if contains both case letters
+        if (word.equals(word.toLowerCase())||word.equals(word.toUpperCase())){
+            error++;
+        }
+        //Check if does not contain alphaumeric character
+        if (word.matches("[A-Za-z0-9 ]*")){
+            error++;
+        }
+        return error;
+    }
 
 
 }
