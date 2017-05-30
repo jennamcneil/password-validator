@@ -5,6 +5,16 @@ package com.example.jen.password_validator;
  */
 
 public class passwordValidator {
+    private String password;
+
+    public void setWord(String word){
+password= word;
+    }
+    public String getWord(){
+        return password;
+    }
+
+
     public int validate1 (String word){
         int error =0;
         //Word less than 8 characters

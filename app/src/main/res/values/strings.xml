@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">password-validator</string>
+    <string name="OK">password-validator</string>
+
+    <string name="Password">password-validator</string>
+    <string name="Weak">password-validator</string>
+    <string name="Strong">password-validator</string>
+
 </resources>
